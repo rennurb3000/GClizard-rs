@@ -1,0 +1,2 @@
+[workspace]
+members = ["lib_lizardrs", "macroquad_playground"]
