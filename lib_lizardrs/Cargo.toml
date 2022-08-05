@@ -6,3 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+approx = "0.5.1"
+glam = { version = "0.21", features = ["approx"] }
+clippy = { optional = true }
+
+[features]
+default = []
+dev = ["clippy"]
