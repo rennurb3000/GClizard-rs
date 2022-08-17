@@ -20,7 +20,7 @@ mod tests {
         assert!(res.is_some());
         assert_ulps_eq!(res.unwrap(), Vec2::new(1.0, 1.0));
     }
-    
+
     #[test]
     fn no_vector_intersect2d() {
         let v1 = Vec2::new(0.0, 1.0); //does not need to be normalized
